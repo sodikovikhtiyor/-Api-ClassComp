@@ -1,42 +1,56 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 .card {
-    border: 2px solid #fff;
-    display: inline-block;
-    text-align: left;
-
+  border: 2px solid #fff;
+  display: inline-block;
+  text-align: left;
 }
 .card__top {
-    border-bottom: 2px solid #fff;
-    background-color: #fff;
+  border-bottom: 2px solid #fff;
+  background-color: #fff;
 }
 .card__top img {
-    height: 100%;
-    object-fit: contain;
-
+  height: 100%;
+  object-fit: contain;
 }
 .card__bottom {
-    padding: 5px 20px;
+  padding: 5px 20px;
 }
-h2, h5 {
-    margin: 5px 0;
-} 
+h2,
+h5 {
+  margin: 5px 0;
+}
 a {
-    display: block;
-    color: inherit;
+  display: block;
+  color: inherit;
 }
 .btn {
-    font-size: 15px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    margin: 15px 0;
-    font-weight: bold;
-    cursor: pointer;
-    transition: .3s ease-in-out;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 .btn:hover {
-    color: #fff;
-    background-color: #3f3f3f;
+  color: #fff;
+  background-color: #3f3f3f;
+}
+.user-data {
+  width: 100%;
+}
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+input,
+button {
+  font-size: 2rem;
+}
+input {
+  margin: 10px auto;
 }

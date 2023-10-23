@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
 import Card from "./components/Card";
+import FindGitHub from "./components/FindGitHub";
 
 function App() {
   return (
     <div>
-      <Card/>
+      <FindGitHub/>
+      {/* <Card/> */}
     </div>
   );
 }
